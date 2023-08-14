@@ -194,14 +194,6 @@ struct Generate {
 </html>
 """
     }
-    
-    static var example: String = """
-
-
-void main(){
-    
-}
-"""
 }
 
 //Credits:

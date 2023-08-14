@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "granite",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pexavc/Granite.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b43407e972f78e879f50e06a09462d81fec5c7c8"
+      }
+    }
+  ],
+  "version" : 2
+}

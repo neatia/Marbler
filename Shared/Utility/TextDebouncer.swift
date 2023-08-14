@@ -19,7 +19,7 @@ class TextDebouncer : ObservableObject {
         self.text = startingText
         #if os(macOS)
         $text
-            .debounce(for: .seconds(1.2), scheduler: DispatchQueue.main)
+            .debounce(for: .seconds(0.75), scheduler: DispatchQueue.main)
             .sink(receiveValue: { [weak self] value in
                 let trimmedValue = value.trimmingCharacters(in: .whitespacesAndNewlines)
                 guard trimmedValue.isEmpty == false else { return }

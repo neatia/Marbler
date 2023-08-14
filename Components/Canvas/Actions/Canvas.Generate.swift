@@ -15,6 +15,10 @@ struct Generate {
     uniform vec2 u_position;
     """
     
+    static var additionalHeaderTooltip: String = """
+    vec4 gl_FragCoord;
+    """
+    
     static func shader(title: String = "Marbler",
                          author: String = "Anonymous",
                          urlString: String = "https://github.com/neatia/Marbler",

@@ -24,7 +24,7 @@ struct UniversalEditorView: View {
                     .textFieldStyle(PlainTextFieldStyle())
                     .foregroundColor(.foreground)
                     .background(.clear)
-                    .font(.title3.bold())
+                    .font(.headline)
                     .scrollContentBackground(Visibility.hidden)
                     .padding(.layer3)
             } else {
@@ -32,7 +32,7 @@ struct UniversalEditorView: View {
                     .textFieldStyle(PlainTextFieldStyle())
                     .foregroundColor(.foreground)
                     .background(.clear)
-                    .font(.title3.bold())
+                    .font(.headline)
                     .padding(.layer3)
             }
         }

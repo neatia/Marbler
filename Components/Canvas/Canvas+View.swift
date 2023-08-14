@@ -73,7 +73,7 @@ extension Canvas: View {
                     .padding(.top, .layer2)
                     
                     HStack {
-                        Text(Generate.header)
+                        Text(Generate.header+"\n"+Generate.additionalHeaderTooltip)
                             .multilineTextAlignment(.leading)
                             .font(.headline.bold())
                             .foregroundColor(.foreground.opacity(0.5))
